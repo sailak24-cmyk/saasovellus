@@ -1,0 +1,68 @@
+body {
+	background-image: linear-gradient( rgb(5, 102, 248), rgb(8, 197, 235));
+	display: grid;
+	align-items: center;
+	min-height: 100px;
+	grid-auto-rows: minmax(210px, auto);
+	justify-content: center;
+}
+h1 {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+button {
+ background-image: linear-gradient( rgb(0, 164, 252), rgb(8, 197, 235));
+  border-radius: 150px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+button:hover{
+	background-color: blue;
+	color:white;
+}
+body {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	padding: 20px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+h1 {
+	grid-column: 1 / -1;
+}
+div {
+  background-image: linear-gradient( rgb(0, 164, 252), rgb(8, 197, 235));
+  width: 100%;
+  max-width: 240px;
+  border: 2px solid rgba(0, 0, 0, 0.308);
+  padding: 10px;
+  border-radius: 30px;
+  min-height: 120px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#ennuste {
+  background-color: rgba(92, 159, 227, 0.635);
+  width: 100%;
+  max-width: 240px;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 100px 0;
+  position: absolute; 
+  left: 35px; 
+  transform: translateY(50%);
+  min-height: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
